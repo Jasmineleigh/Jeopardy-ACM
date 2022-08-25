@@ -1,5 +1,5 @@
 package application;
-
+	
 import java.io.File;
 
 import javafx.application.Application;
@@ -21,9 +21,10 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
-public class Main extends Application {
 
-	 Button btnCat1_100 = new Button();
+public class Main extends Application {
+	
+	Button btnCat1_100 = new Button();
 	 Button btnCat1_200 = new Button();
 	 Button btnCat1_300 = new Button();
 	 Button btnCat1_400 = new Button();
@@ -56,7 +57,7 @@ public class Main extends Application {
 	 Button btnClose = new Button("Close");
 	 Button btnAnswer = new Button("Answer");
 	
-	 ReadQA readQuestions = new ReadQA("src/application/QA.txt");
+	 ReadQA readQuestions = new ReadQA("src/application/acm_meeting.txt");
 	 qa questions = readQuestions.createQA();
 	
 	@Override
@@ -72,8 +73,6 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 	}
-
-
 	
 	private  Pane buildGUI() {
 		GridPane root = new GridPane();
@@ -438,7 +437,7 @@ public class Main extends Application {
     		            }
     		        });
     			    
-    			    Scene scene = new Scene(grdRootPane, 600, 400);
+    			    Scene scene = new Scene(grdRootPane, 800, 600);
     				scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
     				primaryStage.setScene(scene);
     				primaryStage.setTitle("Trivia");
@@ -473,15 +472,15 @@ public class Main extends Application {
         Label question = new Label(q);
         question.setAlignment(Pos.CENTER);
         question.setWrapText(true);
-        question.setMaxWidth(500);
-        question.setMaxHeight(100);
+        question.setMaxWidth(5000);
+        question.setMaxHeight(1000);
         question.setTextAlignment(TextAlignment.CENTER);
         
         Label answer = new Label(a);
         answer.setAlignment(Pos.CENTER);
         answer.setWrapText(true);
-        answer.setMaxWidth(500);
-        answer.setMaxHeight(100);
+        answer.setMaxWidth(5000);
+        answer.setMaxHeight(1000);
         answer.setTextAlignment(TextAlignment.CENTER);
         
         btnAnswer.setAlignment(Pos.CENTER);
@@ -500,7 +499,4 @@ public class Main extends Application {
         
         return box;
 	}
-	
 }
-
-
