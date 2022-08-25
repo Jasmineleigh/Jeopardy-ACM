@@ -12,10 +12,10 @@ c:2:Slogans
 2:5:You're not you when you're hungry:What is Snickers?
 c:3:Films
 3:1:Leonardo DiCaprio played this character in the movie Titanic:Who is Jack Dawson?
-3:2:Aladdin and his monkey Abu stole this from the marketplace when you’re first introduced to them in the movie:What is bread?
+3:2:Aladdin and his monkey Abu stole this from the marketplace when youâ€™re first introduced to them in the movie:What is bread?
 3:3:Bruce Banner became The Incredible Hulk after being exposed to this type of rays:What are gamma rays?
 3:4:In this 1994 movie, we see Tom Hanks very often wearing a light-colored suit, sitting on benches:What is Forest Gump?
-3:5:In The Matrix, Neo takes the this color pill:What is Red?
+3:5:In The Matrix, Neo takes a pill this color:What is Red?
 c:4:Famous History
 4:1:First President of the United States:Who is George Washington?
 4:2:He invented many uses for the peanut:Who is George Washingtion Carver?
