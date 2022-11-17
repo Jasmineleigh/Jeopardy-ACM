@@ -26,7 +26,7 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Round2 extends Application {
 
 	 Button btnCat1_100 = new Button();
 	 Button btnCat1_200 = new Button();
@@ -71,7 +71,7 @@ public class Main extends Application {
 	 HBox total2 = new HBox();
 	 
 	
-	 ReadQA readQuestions = new ReadQA("src/application/round1.txt");
+	 ReadQA readQuestions = new ReadQA("src/application/round2.txt");
 	 qa questions = readQuestions.createQA();
 	
 	 TextArea txaTeam1 = new TextArea();
@@ -178,7 +178,7 @@ public class Main extends Application {
 		VBox vBox_cat1 = new VBox();
 		Label lblCat1 = new Label(qa.getCategory(1));
 		
-		btnCat1_100.setText("100");
+		btnCat1_100.setText("200  ");
 		btnCat1_100.getStyleClass().add("rich-blue-2");
 		btnCat1_100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -188,7 +188,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat1_200.setText("200");
+		btnCat1_200.setText("400  ");
 		btnCat1_200.getStyleClass().add("rich-blue-2");
 		btnCat1_200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -198,7 +198,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat1_300.setText("300");
+		btnCat1_300.setText("600  ");
 		btnCat1_300.getStyleClass().add("rich-blue-2");
 		btnCat1_300.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -209,7 +209,7 @@ public class Main extends Application {
         });
 		
 		
-		btnCat1_400.setText("400");
+		btnCat1_400.setText("800  ");
 		btnCat1_400.getStyleClass().add("rich-blue-2");
 		btnCat1_400.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -219,7 +219,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat1_500.setText("500");
+		btnCat1_500.setText("1000");
 		btnCat1_500.getStyleClass().add("rich-blue-2");
 		btnCat1_500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -241,7 +241,7 @@ public class Main extends Application {
 		VBox vBox_cat2 = new VBox();
 		Label lblCat2 = new Label(qa.getCategory(2));
 		
-		btnCat2_100.setText("100");
+		btnCat2_100.setText("200  ");
 		btnCat2_100.getStyleClass().add("rich-blue-2");
 		btnCat2_100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -251,7 +251,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat2_200.setText("200");
+		btnCat2_200.setText("400  ");
 		btnCat2_200.getStyleClass().add("rich-blue-2");
 		btnCat2_200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -261,7 +261,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat2_300.setText("300");
+		btnCat2_300.setText("600  ");
 		btnCat2_300.getStyleClass().add("rich-blue-2");
 		btnCat2_300.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -272,7 +272,7 @@ public class Main extends Application {
         });
 		
 		
-		btnCat2_400.setText("400");
+		btnCat2_400.setText("800  ");
 		btnCat2_400.getStyleClass().add("rich-blue-2");
 		btnCat2_400.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -282,7 +282,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat2_500.setText("500");
+		btnCat2_500.setText("1000");
 		btnCat2_500.getStyleClass().add("rich-blue-2");
 		btnCat2_500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -305,7 +305,7 @@ public class Main extends Application {
 		VBox vBox_cat3 = new VBox();
 		Label lblCat3 = new Label(qa.getCategory(3));
 		
-		btnCat3_100.setText("100");
+		btnCat3_100.setText("200  ");
 		btnCat3_100.getStyleClass().add("rich-blue-2");
 		btnCat3_100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -315,7 +315,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat3_200.setText("200");
+		btnCat3_200.setText("400  ");
 		btnCat3_200.getStyleClass().add("rich-blue-2");
 		btnCat3_200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -325,7 +325,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat3_300.setText("300");
+		btnCat3_300.setText("600  ");
 		btnCat3_300.getStyleClass().add("rich-blue-2");
 		btnCat3_300.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -336,7 +336,7 @@ public class Main extends Application {
         });
 		
 		
-		btnCat3_400.setText("400");
+		btnCat3_400.setText("800  ");
 		btnCat3_400.getStyleClass().add("rich-blue-2");
 		btnCat3_400.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -346,7 +346,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat3_500.setText("500");
+		btnCat3_500.setText("1000");
 		btnCat3_500.getStyleClass().add("rich-blue-2");
 		btnCat3_500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -369,7 +369,7 @@ public class Main extends Application {
 		VBox vBox_cat4 = new VBox();
 		Label lblCat4 = new Label(qa.getCategory(4));
 		
-		btnCat4_100.setText("100");
+		btnCat4_100.setText("200  ");
 		btnCat4_100.getStyleClass().add("rich-blue-2");
 		btnCat4_100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -379,7 +379,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat4_200.setText("200");
+		btnCat4_200.setText("400  ");
 		btnCat4_200.getStyleClass().add("rich-blue-2");
 		btnCat4_200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -389,7 +389,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat4_300.setText("300");
+		btnCat4_300.setText("600  ");
 		btnCat4_300.getStyleClass().add("rich-blue-2");
 		btnCat4_300.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -400,7 +400,7 @@ public class Main extends Application {
         });
 		
 		
-		btnCat4_400.setText("400");
+		btnCat4_400.setText("800  ");
 		btnCat4_400.getStyleClass().add("rich-blue-2");
 		btnCat4_400.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -410,7 +410,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat4_500.setText("500");
+		btnCat4_500.setText("1000");
 		btnCat4_500.getStyleClass().add("rich-blue-2");
 		btnCat4_500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -433,7 +433,7 @@ public class Main extends Application {
 		VBox vBox_cat5 = new VBox();
 		Label lblCat5 = new Label(qa.getCategory(5));
 		
-		btnCat5_100.setText("100");
+		btnCat5_100.setText("400  ");
 		btnCat5_100.getStyleClass().add("rich-blue-2");
 		btnCat5_100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -443,7 +443,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat5_200.setText("200");
+		btnCat5_200.setText("800  ");
 		btnCat5_200.getStyleClass().add("rich-blue-2");
 		btnCat5_200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -453,7 +453,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat5_300.setText("300");
+		btnCat5_300.setText("600  ");
 		btnCat5_300.getStyleClass().add("rich-blue-2");
 		btnCat5_300.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -464,7 +464,7 @@ public class Main extends Application {
         });
 		
 		
-		btnCat5_400.setText("400");
+		btnCat5_400.setText("800  ");
 		btnCat5_400.getStyleClass().add("rich-blue-2");
 		btnCat5_400.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -474,7 +474,7 @@ public class Main extends Application {
             }
         });
 		
-		btnCat5_500.setText("500");
+		btnCat5_500.setText("1000");
 		btnCat5_500.getStyleClass().add("rich-blue-2");
 		btnCat5_500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -513,7 +513,7 @@ public class Main extends Application {
     			    btnTeam1.setOnAction(new EventHandler<ActionEvent>() {
     		            @Override
     		            public void handle(ActionEvent event) {
-    		            	int pts = column * 100;
+    		            	int pts = column * 200;
     		            	team1Pts.getItems().add(pts);
     		            	
     		            	int total = 0;
@@ -530,7 +530,7 @@ public class Main extends Application {
     			    btnTeam2.setOnAction(new EventHandler<ActionEvent>() {
     		            @Override
     		            public void handle(ActionEvent event) {
-    		                int pts = column * 100;
+    		                int pts = column * 200;
     		                team2Pts.getItems().add(pts);
     		                int total = 0;
     		                int size = team2Pts.getItems().size();
