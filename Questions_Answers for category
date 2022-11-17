@@ -6,25 +6,25 @@ c:CS Trivia
   1:5:user_input = input(\"What is your name?\")\nprint("Hello, ", user_input)\n:What is Python?
 c:Math
   2:2:(12)(12)-(11)(4):What is 100?
-  2:1:formula to find the area of a triangle:What is (1/2)bh?
+  2:1:Formula to find the area of a triangle:What is (1/2)bh?
   2:3:15 * 15:What is 225?
-  2:4:the squared root of variance:What is Standard Deviation?
+  2:4:The squared root of variance:What is Standard Deviation?
   2:5:25% of 160:What is 20?
-Movies
-  1.
-  2.
-  3.
-  4.
-  5.
-VSU map
-  1.  Which building is at the end of the central walkway, next to the Student Union?:Odum Library
-  2.
-  3.
-  4.
-  5.
-Professors
-  1.  Which professor is named after a spring storm?:Chunlei Liu
-  2.
-  3.
-  4.
-  5.
+c:Movies
+  3:2:Released in 2008, this movie helped pave the way for Marvel Studios success:What is Iron Man?
+  3:3:A chimp named Caesar leads a revolt of apes in this film:What is Rise of The Planet of The Apes?
+  3:1:Actor who was casted to play the role of Forest Gump:Who is Tom Hanks?
+  3:4:This actor was also the governor of California from 2003 to 2011:Who is Arnold Schwarzenegger?
+  3:5:This 13-year-old film is the top grossed of all time:What is Avatar?
+c:Holidays
+  4:3:Every time it is this holiday most people plan to lose weight:What is New Year's Day?
+  4:2:Time of year where people sing about figgy pudding: What is Christmas?
+  4:1:You better where green or you will get pinched!:What is St. Patrick's Day?
+  4:4:A day to celebrate life and work of the Civil Rights Era leader:What is Martin Luther King Jr. Day?
+  4:5:Based on the patron saint of love: What is St. Valintine's Day?
+c:Capital City
+  5:1:Which professor is named after a spring storm?:Chunlei Liu
+  5:2:
+  5:3:
+  5:4:
+  5:5:
