@@ -5,11 +5,11 @@ c:CS Trivia
   1:4:A dynamically-created object that serves as a container to hold constant number of values of the same type:What is an array?
   1:5:user_input = input(\"What is your name?\")\nprint("Hello, ", user_input)\n:What is Python?
 c:Math
-  1.
-  2.
-  3.
-  4.
-  5.
+  2:2:(12)(12)-(11)(4):What is 100?
+  2:1:formula to find the area of a triangle:What is (1/2)bh?
+  2:3:15 * 15:What is 225?
+  2:4:the squared root of variance:What is Standard Deviation?
+  2:5:25% of 160:What is 20?
 Movies
   1.
   2.
