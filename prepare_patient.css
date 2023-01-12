@@ -1,23 +1,18 @@
 .root{
-	-fx-background-color: #ffffff;
-	-fx-padding: 5px, 5px, 5px, 5px;
-	-fx-spacing:15px;
-	-fx-hgap: 5px;
-	-fx-vgap: 5px;
+	-fx-background-color: #f0f8ff;
+	-fx-padding: 45px;
+	-fx-hgap: 15px;
+	-fx-vgap: 15px;
 }
 
 .label{
 	-fx-font-family:Verdana;
-	-fx-font-size:12px;
+	-fx-font-size:20px;
+	-fx-text-fill:#0177bc;
 }
 
-.grid1 {
-	-fx-padding: 5px, 5px, 5px, 5px;
-	-fx-spacing:15px;
-}
-
-.h_box {
-	-fx-padding: 10px;
+.h-box {
+	-fx-padding: 5px;
 	-fx-spacing: 15px;
 	-fx-text-fill: #0090c0;
 }
@@ -30,25 +25,7 @@
 .buttons_box {
 	-fx-border-style:solid;
 	-fx-border-color:#0077c0;
-	-fx-border-width:1px;
-	-fx-background-color:#cce4f2;
-	-fx-spacing: 15px;
-	-fx-padding: 5px;
-}
-
-.buttons_box {
-	-fx-border-style:solid;
-	-fx-border-color:#0077c0;
-	-fx-border-width:1px;
-	-fx-background-color:#cce4f2;
-	-fx-spacing: 15px;
-	-fx-padding: 5px;
-}
-
-.buttons_h_box {
-	-fx-border-style:solid;
-	-fx-border-color:#0077c0;
-	-fx-border-width:1px;
+	-fx-border-width:2px;
 	-fx-background-color:#cce4f2;
 	-fx-spacing: 5px;
 	-fx-padding: 5px;
@@ -84,6 +61,9 @@
 
 .list{
 	-fx-background-color:#cce4f2;
+	-fx-border-style:solid;
+	-fx-border-color:#0077c0;
+	-fx-border-width:2px;
 	-fx-padding: 5px;
 	-fx-spacing:3px;
 }
